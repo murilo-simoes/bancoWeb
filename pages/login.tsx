@@ -4,7 +4,6 @@ import Menu from "../src/components/Menu";
 const Login = () => {
   return (
     <>
-      <Menu visibility="none" />
       <Card
         title={"Login"}
         buttonText={"ENTRAR"}

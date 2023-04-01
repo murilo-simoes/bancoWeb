@@ -15,7 +15,7 @@ export const LogoDiv = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   background-color: black;
   align-items: center;
 

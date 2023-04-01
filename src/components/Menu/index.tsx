@@ -17,12 +17,6 @@ const Menu = ({ visibility }: buttonProp) => {
       {/* menu simples com opção de adicionar o botão de logout  */}
       <Container>
         <LogoDiv>
-          <Image
-            src={logo}
-            alt={"Logo do Site"}
-            loading="eager"
-            priority={true}
-          />
           <button onClick={logOut} style={{ display: visibility }}>
             SAIR
           </button>

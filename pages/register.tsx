@@ -7,7 +7,7 @@ const Register = () => {
   return (
     <>
       {/* card passando as props */}
-      <Menu visibility="none" />
+
       <Card
         title={"Crie sua conta!"}
         buttonText={"REGISTRAR"}
